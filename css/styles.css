@@ -262,6 +262,10 @@ ol {
   margin-bottom: 8px;
 }
 
+.portfolio-card-content .text {
+  margin-bottom: 0;
+}
+
 .footer {
   color: #f4f4fd;
   background-color: #2e2f42;
