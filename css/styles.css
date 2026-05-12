@@ -112,6 +112,8 @@ a {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 .hero-button {
@@ -180,6 +182,7 @@ ol {
 
 .team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-section .section-title {
@@ -196,6 +199,30 @@ ol {
 
 .team-card {
   background-color: white;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-title {
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-card-content {
+  padding: 32px 0;
+}
+
+.team-name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-position {
+  text-align: center;
 }
 
 .text {
