@@ -1,3 +1,7 @@
+img {
+  display: block;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -5,11 +9,27 @@ body {
   background-color: white;
 }
 
-nav {
-  font-weight: 500;
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-.logo {
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+}
+
+.header-nav {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
@@ -17,6 +37,7 @@ nav {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-studio {
@@ -27,11 +48,17 @@ nav {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: flex;
+  gap: 40px;
 }
 
-.nav-list:hover,
-.nav-list:focus,
-.nav-list:active {
+.nav-link {
+  padding: 24px 0;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
   color: #404bbf;
 }
 
@@ -44,13 +71,15 @@ a {
   font-style: normal;
 }
 
-.address-link {
+.address-list {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  gap: 40px;
 }
 
-.address-link:hover,
-.address-link:focus {
+.address-list:hover,
+.address-list:focus {
   color: #404bbf;
 }
 
