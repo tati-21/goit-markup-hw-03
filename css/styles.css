@@ -1,0 +1,142 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #434455;
+  background-color: white;
+}
+
+nav {
+  font-weight: 500;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+
+.logo-studio {
+  color: #2e2f42;
+}
+
+.nav-menu {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-list:hover,
+.nav-list:focus,
+.nav-list:active {
+  color: #404bbf;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
+.hero-section {
+  background-color: #2e2f42;
+}
+
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: white;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.hero-button {
+  background-color: #4d5ae5;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-section .section-title {
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.portfolio-section .section-title {
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-card {
+  background-color: white;
+}
+
+.text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.footer {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+}
+
+.footer .logo-studio {
+  color: #f4f4fd;
+}
+
+.footer > .footer-text {
+  color: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
