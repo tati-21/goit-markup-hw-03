@@ -72,14 +72,17 @@ a {
 }
 
 .address-list {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   display: flex;
   gap: 40px;
 }
 
-.address-list:hover,
-.address-list:focus {
+.address-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
