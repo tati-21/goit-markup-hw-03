@@ -27,6 +27,7 @@ body {
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .header-nav {
@@ -75,6 +76,7 @@ a {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .address-list {
